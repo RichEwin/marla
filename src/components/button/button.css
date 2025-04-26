@@ -1,0 +1,27 @@
+.button {
+  border-radius: 4px;
+  width: auto;
+  color: #000000;
+  cursor: pointer;
+}
+
+.button-transparent {
+  background: none;
+  border: none;
+}
+
+/* Sizes */
+.button-sm {
+  height: 32px; 
+  font-size: 14px;
+}
+
+.button-md {
+  height: 40px;
+  font-size: 16px;
+}
+
+.button-lg {
+  height: 48px;
+  font-size: 18px;
+}

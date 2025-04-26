@@ -1,0 +1,49 @@
+{
+  "name": "@rewin/marla",
+  "version": "1.0.0",
+  "description": "A UI library",
+  "homepage": "https://github.com/RichEwin/marla",
+  "bugs": {
+    "url": "https://github.com/RichEwin/marla/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichEwin/marla.git"
+  },
+  "author": "rich ewin",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/experimental-addon-test": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "playwright": "^1.52.0",
+    "prop-types": "^15.8.1",
+    "rollup": "^3.26.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.6.12",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  }
+}
