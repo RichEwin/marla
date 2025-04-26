@@ -24,6 +24,20 @@ UI libraries often come with strong opinions about styles. Marla doesn’t. It�
 npm install @rewin/marla
 ```
 
+## 🧪 Example Usage
+
+```
+import { Button } from "@rewin/marla";
+
+export function App() {
+  return (
+    <div>
+      <Button>Click!</Button>
+    </div>
+  );
+}
+```
+
 ## 🛡️ Gotchas
 
 Components are unstyled by default. You must provide styles.
